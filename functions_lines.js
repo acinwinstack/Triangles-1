@@ -20,7 +20,7 @@ function newLine() {
                     line(pt_array[clickedID].x, pt_array[clickedID].y, Xa, Ya);
                     break;
                 } else {
-                    clickable = true;
+                    clickable = false;
                 }
             }
 
